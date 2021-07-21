@@ -103,7 +103,7 @@ def generate_report():
 
 			with open(report_file, 'a+') as output:
 				#header
-				output.write('\t' + 'Poma Donation Log\n')
+				output.write('\t' + 'Donation Log\n')
 				output.write('\t' + month + '\n')
 				output.write('\t' + donor_name + '\n')
 				output.write('_' * 20 + '\n')
